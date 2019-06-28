@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: goproxy
+  labels:
+    app: goproxy
+spec:
+  containers:
+  - name: goproxy
+    image: cnych/goproxy
+    ports:
+    - containerPort: 8080
+    readinessProbe:
+      tcpSocket:
+        port: 8080
+      initialDelaySeconds: 5
+      peroidSeconds: 10
+    livenessPorbe:
+      tcpSocket:
+        port: 8080
+      initialDelaySeconds: 15
+      peroidSeconds: 20
