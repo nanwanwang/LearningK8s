@@ -4,6 +4,19 @@ kind: ServiceAccount
 metadata:
   name: heapster
   namespace: kube-system
+--- 
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: heapster-admin
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: cluster-admin
+subjects: 
+- kind: ServiceAccount
+  name: heapster
+  namespace: kube-system
 ---
 apiVersion: extensions/v1beta1
 kind: Deployment
@@ -45,3 +58,5 @@ spec:
     targetPort: 8082
   selector:
     k8s-app: heapster
+
+
