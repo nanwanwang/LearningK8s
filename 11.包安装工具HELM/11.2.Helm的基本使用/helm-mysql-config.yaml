@@ -1,0 +1,6 @@
+mysqlUser: demon
+mysqlDatabase: mydb
+service:
+  type: NodePort
+persistence:
+  enabled: false
