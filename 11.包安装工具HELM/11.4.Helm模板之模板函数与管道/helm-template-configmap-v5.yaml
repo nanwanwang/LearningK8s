@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+data:
+  myvalue: "Hello World"
+  k8s: {{ .Values.course.k8s | quote }}
+  python: {{ .Values.course.python }}
+    
