@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+data:
+  myvalue: {{ .Values.hello | default "Hello World" | quote}}
+  k8s: {{ .Values.course.k8s | upper | quote}}
+  python: {{ .Values.course.python | repeat 3 | quote}}
+  {{- if eq .Values.course.python "django" }}
+  web: true
+  {{- end }}
