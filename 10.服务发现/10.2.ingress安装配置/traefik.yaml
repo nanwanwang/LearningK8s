@@ -1,6 +1,6 @@
 ---
 kind: Deployment
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 metadata:
   name: traefik-ingress-controller
   namespace: kube-system
@@ -19,6 +19,10 @@ spec:
     spec:
       serviceAccountName: traefik-ingress-controller
       terminationGracePeriodSeconds: 60
+      volumes:
+      - name: config
+        configMap:
+          name: traefik-conf
       tolerations:
       - operator: "Exists"
       nodeSelector:
@@ -26,12 +30,16 @@ spec:
       containers:
       - image: traefik
         name: traefik-ingress-lb
+        volumeMounts:
+        - mountPath: "/config"
+          name: "config"
         ports:
         - name: http
           containerPort: 80
         - name: admin
           containerPort: 8080
         args:
+        - --configfile=/config/traefik.toml
         - --api
         - --kubernetes
         - --logLevel=INFO

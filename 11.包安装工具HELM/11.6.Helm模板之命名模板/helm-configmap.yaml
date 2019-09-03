@@ -1,0 +1,14 @@
+{{- define "mychart.labels" }}
+  labels:
+    from: helm
+    date: {{ now | htmlDate }}
+{{- end }}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+  {{- template "mychart.labels" }}
+data:
+  {{- range $key, $value := .Values.course }}
+  {{- $key }}: {{ $value | quote }}
+  {{- end }}

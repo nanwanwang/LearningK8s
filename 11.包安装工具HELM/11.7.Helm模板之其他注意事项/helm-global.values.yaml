@@ -1,0 +1,15 @@
+course:
+  k8s: devops
+  python: django
+courselist:
+- k8s
+- python
+- search
+- golang
+
+mysubchart:
+  in: parent
+
+
+global:
+  allin: helm

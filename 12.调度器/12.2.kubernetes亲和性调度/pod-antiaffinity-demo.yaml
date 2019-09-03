@@ -1,0 +1,31 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: affinity
+  labels:
+    app: affinity
+spec:
+  replicas: 3
+  revisionHistoryLimit: 15
+  template:
+    metadata:
+      labels:
+        app: affinity
+        role: test
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.7.9
+        ports:
+        - containerPort: 80
+          name: nginxweb
+      affinity:
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:  # 硬策略
+          - labelSelector:
+              matchExpressions:
+              - key: app
+                operator: In
+                values:
+                - busybox-pod
+            topologyKey: kubernetes.io/hostname
