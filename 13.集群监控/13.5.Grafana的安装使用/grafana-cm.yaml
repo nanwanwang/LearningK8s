@@ -10,12 +10,11 @@ data:
     [smtp]
     enabled = true
     host = smtp.163.com:25
-    user = nanwanwangjian@163.com
-    password = 7546319ily!!
+    user = nanwanwang@163.com
+    password = 7546319ily
     skip_verify = true
-    form_address = nanwanwangjian@163.com
+    from_address = nanwanwang@163.com
     [alerting]
     enabled = true
     execute_alerts = true
-
 

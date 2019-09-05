@@ -43,6 +43,25 @@ spec:
           limits:
             cpu: 100m
             memory: 512Mi
+      - image: prom/alertmanager:v0.15.3
+        name: alertmanager
+        imagePullPolicy: IfNotPresent
+        args:
+        - "--config.file=/etc/alertmanager/config.yml"
+        - "--storage.path=/alertmanager/data"
+        ports:
+        - containerPort: 9093
+          name: http
+        volumeMounts:
+        - mountPath: "/etc/alertmanager"
+          name: alertcfg
+        resources:
+          requests:
+            cpu: 100m
+            memory: 256Mi
+          limits:
+            cpu: 100m
+            memory: 256Mi
       securityContext:
         runAsUser: 0
       volumes:
@@ -52,3 +71,6 @@ spec:
       - configMap:
           name: prometheus-config
         name: config-volume
+      - name: alertcfg
+        configMap:
+          name: alert-config
