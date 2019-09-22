@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b460117-73d4-4f41-bc4c-4e8316ada998" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch4/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch5/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch6/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch7/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch8/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch9/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch9/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch9/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,16 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build ch8">
-    <configuration name="go build ch6" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golearning" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/src/ch6/main.go" />
-      <package value="ch6" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build ch9">
     <configuration name="go build ch7" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golearning" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -90,6 +76,15 @@
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/src/ch8/main.go" />
       <package value="ch8" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build ch9" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golearning" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/ch9/main.go" />
+      <package value="ch9" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -111,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build ch9" />
         <item itemvalue="Go Build.go build ch8" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build ch7" />
-        <item itemvalue="Go Build.go build ch6" />
       </list>
     </recent_temporary>
   </component>
