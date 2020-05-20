@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+func changeEle(arr []int){
+   arr[0]=1000
+}
+
 func main(){
    var arr [8] int =[8]int{0,1,2,3,4,5,6,7}
 
@@ -17,6 +21,11 @@ func main(){
 
    s4:=arr[:]
    fmt.Println(s4)
+   
+   changeEle(s4)
+   fmt.Println(s4)
+   fmt.Println(arr)
+
 
 
    var s0 []int
