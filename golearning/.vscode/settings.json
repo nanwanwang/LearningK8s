@@ -1,0 +1,14 @@
+{
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "go.gopath": "$workspaceRoot",
+    "go.toolsGopath": "C:\\Users\\think\\Documents\\global",
+    "go.alternateTools": {
+        
+    
+    },
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "code-runner.executorMap": {
+        "go": "go run  $fullFileName"
+    }
+}
