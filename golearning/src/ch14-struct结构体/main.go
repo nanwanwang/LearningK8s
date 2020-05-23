@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 
 type Book struct{
@@ -25,6 +28,13 @@ func (book *Book) GetTitle()string{
 
 func NewBook (id int,title string,author string,subject string) *Book{
 	return &Book{id,title,author,subject}
+}
+
+
+type Integer int
+
+func (it Integer) String() string{
+	return strconv.Itoa(int(it))
 }
 
 func main(){
@@ -61,4 +71,13 @@ func main(){
 
    b3:=NewBook(1,"11","22","33")
    fmt.Println(b3.String())
+
+
+   fmt.Println("*********************")
+
+   it:=Integer(100)
+
+   str:=it.String()
+
+   fmt.Printf("str=%s,type=%T\n",str,str)
 }
