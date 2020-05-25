@@ -55,7 +55,7 @@ func (book *Book) String() string{
 
 func InitTechBook(){
 
-	bk:=NewBook(1,"1","2","3")
+	   bk:=NewBook(1,"1","2","3")
 	tb:=new(TechBook)
 	tb.cat="tech"
 	tb.int=2
