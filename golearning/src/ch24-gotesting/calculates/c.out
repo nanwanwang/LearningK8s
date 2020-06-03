@@ -1,0 +1,5 @@
+mode: set
+ch24-gotesting/calculates/calculate.go:7.22,9.2 1 0
+ch24-gotesting/calculates/calculate.go:10.16,14.2 2 0
+ch24-gotesting/calculates/calculate.go:17.31,21.2 3 1
+ch24-gotesting/calculates/calculate.go:23.20,25.2 1 0

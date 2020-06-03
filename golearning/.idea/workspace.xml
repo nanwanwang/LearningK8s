@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a121d134-afb6-4082-8360-3d5096d8cbb5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ch23-gomodules-versions/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch23-gomodules-versions/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch23-gomodules-versions/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch24-gotesting/calculates/c.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch24-gotesting/calculates/calculate_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch24-gotesting/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates/c.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates/calculate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates/calculate_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates/calculates.test.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates/cover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates/cpu.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch28-godoc-example/queue/queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch28-godoc-example/queue/queue_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go.mod" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1ceooRXdxJrAHh37OpYTZ2vcfwS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\LearningK8s\golearning\src\ch27-gotesting-cover-bench" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.queue_test.go queue.go">
+    <configuration name="go build calculate.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golearning" />
+      <working_directory value="$PROJECT_DIR$/src/ch27-gotesting-cover-bench" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates/calculate.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BenchmarkAdd in ch27-gotesting-cover-bench/calculates" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golearning" />
+      <working_directory value="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="ch27-gotesting-cover-bench/calculates" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^BenchmarkAdd$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestTriangle in calculate_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golearning" />
+      <working_directory value="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates/calculate_test.go" />
+      <pattern value="^TestTriangle$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="queue_test.go queue.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golearning" />
+      <working_directory value="$PROJECT_DIR$/src/ch28-godoc-example/queue" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/ch28-godoc-example/queue/queue_test.go|$PROJECT_DIR$/src/ch28-godoc-example/queue/queue.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="queue_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golearning" />
+      <working_directory value="$PROJECT_DIR$/src/ch28-godoc-example/queue" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/src/ch28-godoc-example/queue/queue_test.go" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build calculate.go" />
+      <item itemvalue="Go Test.TestTriangle in calculate_test.go" />
+      <item itemvalue="Go Test.BenchmarkAdd in ch27-gotesting-cover-bench/calculates" />
+      <item itemvalue="Go Test.queue_test.go" />
+      <item itemvalue="Go Test.queue_test.go queue.go" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.queue_test.go queue.go" />
+        <item itemvalue="Go Test.queue_test.go" />
+        <item itemvalue="Go Test.BenchmarkAdd in ch27-gotesting-cover-bench/calculates" />
+        <item itemvalue="Go Test.TestTriangle in calculate_test.go" />
+        <item itemvalue="Go Build.go build calculate.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="561" y="251" key="#Go_Modules" timestamp="1590898922590">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="561" y="251" key="#Go_Modules/0.0.1536.834@0.0.1536.834" timestamp="1590898922590" />
+    <state x="395" y="96" key="#Inspections" timestamp="1591191060215">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="395" y="96" key="#Inspections/0.0.1536.834@0.0.1536.834" timestamp="1591191060215" />
+    <state x="241" y="50" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591189993451">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="241" y="50" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1591189993451" />
+    <state x="465" y="41" key="#go_build_calculate.go" timestamp="1591189376286">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="465" y="41" key="#go_build_calculate.go/0.0.1536.834@0.0.1536.834" timestamp="1591189376286" />
+    <state x="465" y="41" key="#go_build_calculate.go_calculate_test.go" timestamp="1591023891269">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="465" y="41" key="#go_build_calculate.go_calculate_test.go/0.0.1536.834@0.0.1536.834" timestamp="1591023891269" />
+    <state x="465" y="41" key="#go_build_main.go" timestamp="1590899321830">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="465" y="41" key="#go_build_main.go/0.0.1536.834@0.0.1536.834" timestamp="1590899321830" />
+    <state x="465" y="41" key="#go_build_main.go_(3)" timestamp="1591022270305">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="465" y="41" key="#go_build_main.go_(3)/0.0.1536.834@0.0.1536.834" timestamp="1591022270305" />
+    <state x="656" y="277" key="EnvironmentVariablesDialog" timestamp="1590898921372">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="656" y="277" key="EnvironmentVariablesDialog/0.0.1536.834@0.0.1536.834" timestamp="1590898921372" />
+    <state x="548" y="172" key="FileChooserDialogImpl" timestamp="1591189430425">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="548" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1591189430425" />
+    <state width="746" height="209" key="GridCell.Tab.0.bottom" timestamp="1591195578990">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="746" height="209" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1591195578990" />
+    <state width="746" height="209" key="GridCell.Tab.0.center" timestamp="1591195578990">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="746" height="209" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1591195578990" />
+    <state width="746" height="209" key="GridCell.Tab.0.left" timestamp="1591195578990">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="746" height="209" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1591195578990" />
+    <state width="746" height="209" key="GridCell.Tab.0.right" timestamp="1591195578990">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="746" height="209" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1591195578990" />
+    <state width="746" height="265" key="GridCell.Tab.1.bottom" timestamp="1591106139181">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="746" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1591106139181" />
+    <state width="746" height="265" key="GridCell.Tab.1.center" timestamp="1591106139180">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="746" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1591106139180" />
+    <state width="746" height="265" key="GridCell.Tab.1.left" timestamp="1591106139180">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="746" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1591106139180" />
+    <state width="746" height="265" key="GridCell.Tab.1.right" timestamp="1591106139181">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="746" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1591106139181" />
+    <state x="270" y="62" key="SettingsEditor" timestamp="1591190019999">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1591190019999" />
+    <state x="468" y="120" width="600" height="594" key="find.popup" timestamp="1590998353370">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="468" y="120" width="600" height="594" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1590998353370" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1591023274120">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1591023274120" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/golearning$TestTriangle_in_ch24_gotesting_calculates.out" NAME="TestTriangle in ch24-gotesting/calculates Coverage Results" MODIFIED="1591106138642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/golearning$queue_test_go_queue_go.out" NAME="queue_test.go queue.go Coverage Results" MODIFIED="1591195499608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/golearning$TestTriangle_in_calculate_test_go.out" NAME="TestTriangle in calculate_test.go Coverage Results" MODIFIED="1591189488934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

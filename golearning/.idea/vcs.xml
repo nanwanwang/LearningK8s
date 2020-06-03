@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.cache/govendor/github.com/cnych/stardust" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.cache/govendor/github.com/nanwanwang/stardust" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.cache/govendor/github.com/satori/go.uuid" vcs="Git" />
+  </component>
+</project>
