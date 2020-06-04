@@ -20,23 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a121d134-afb6-4082-8360-3d5096d8cbb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch23-gomodules-versions/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch23-gomodules-versions/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch23-gomodules-versions/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch24-gotesting/calculates/c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch24-gotesting/calculates/calculate_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch24-gotesting/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates/c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates/calculate.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates/calculate_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates/calculates.test.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates/cover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates/cpu.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch28-godoc-example/queue/queue.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch28-godoc-example/queue/queue_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch29-goroutine/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch29-goroutine/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch30-mutex-waitgroup/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/go.mod" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -67,7 +56,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -86,34 +75,31 @@
       <recent name="F:\LearningK8s\golearning\src\ch27-gotesting-cover-bench" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.queue_test.go queue.go">
-    <configuration name="go build calculate.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build ch28-godoc-example/ch29-goroutine" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golearning" />
-      <working_directory value="$PROJECT_DIR$/src/ch27-gotesting-cover-bench" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates/calculate.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="BenchmarkAdd in ch27-gotesting-cover-bench/calculates" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="golearning" />
-      <working_directory value="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates" />
-      <framework value="gobench" />
+      <working_directory value="$PROJECT_DIR$/src" />
       <kind value="PACKAGE" />
-      <package value="ch27-gotesting-cover-bench/calculates" />
+      <filePath value="$PROJECT_DIR$/src/ch29-goroutine/main.go" />
+      <package value="ch28-godoc-example/ch29-goroutine" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkAdd$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestTriangle in calculate_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build ch29-goroutine" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golearning" />
-      <working_directory value="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates" />
-      <framework value="gotest" />
-      <kind value="FILE" />
+      <working_directory value="$PROJECT_DIR$/src/ch29-goroutine" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/ch29-goroutine/main.go" />
+      <package value="ch29-goroutine" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch27-gotesting-cover-bench/calculates/calculate_test.go" />
-      <pattern value="^TestTriangle$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golearning" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/ch30-mutex-waitgroup/main.go" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="queue_test.go queue.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -135,19 +121,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build calculate.go" />
-      <item itemvalue="Go Test.TestTriangle in calculate_test.go" />
-      <item itemvalue="Go Test.BenchmarkAdd in ch27-gotesting-cover-bench/calculates" />
       <item itemvalue="Go Test.queue_test.go" />
       <item itemvalue="Go Test.queue_test.go queue.go" />
+      <item itemvalue="Go Build.go build ch28-godoc-example/ch29-goroutine" />
+      <item itemvalue="Go Build.go build ch29-goroutine" />
+      <item itemvalue="Go Build.go build main.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build ch29-goroutine" />
+        <item itemvalue="Go Build.go build ch28-godoc-example/ch29-goroutine" />
         <item itemvalue="Go Test.queue_test.go queue.go" />
         <item itemvalue="Go Test.queue_test.go" />
-        <item itemvalue="Go Test.BenchmarkAdd in ch27-gotesting-cover-bench/calculates" />
-        <item itemvalue="Go Test.TestTriangle in calculate_test.go" />
-        <item itemvalue="Go Build.go build calculate.go" />
       </list>
     </recent_temporary>
   </component>
@@ -209,22 +195,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="548" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1591189430425" />
-    <state width="746" height="209" key="GridCell.Tab.0.bottom" timestamp="1591195578990">
+    <state width="746" height="209" key="GridCell.Tab.0.bottom" timestamp="1591281884637">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="209" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1591195578990" />
-    <state width="746" height="209" key="GridCell.Tab.0.center" timestamp="1591195578990">
+    <state width="746" height="209" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1591281884637" />
+    <state width="746" height="209" key="GridCell.Tab.0.center" timestamp="1591281884637">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="209" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1591195578990" />
-    <state width="746" height="209" key="GridCell.Tab.0.left" timestamp="1591195578990">
+    <state width="746" height="209" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1591281884637" />
+    <state width="746" height="209" key="GridCell.Tab.0.left" timestamp="1591281884637">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="209" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1591195578990" />
-    <state width="746" height="209" key="GridCell.Tab.0.right" timestamp="1591195578990">
+    <state width="746" height="209" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1591281884637" />
+    <state width="746" height="209" key="GridCell.Tab.0.right" timestamp="1591281884637">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="209" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1591195578990" />
+    <state width="746" height="209" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1591281884637" />
     <state width="746" height="265" key="GridCell.Tab.1.bottom" timestamp="1591106139181">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
