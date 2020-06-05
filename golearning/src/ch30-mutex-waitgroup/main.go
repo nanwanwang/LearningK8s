@@ -23,6 +23,7 @@ func (si *SafeInt) Get() int{
 }
 
 func main() {
+
 	 var wg sync.WaitGroup
 	 var a SafeInt
 	 a.Increase()

@@ -16,15 +16,21 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a121d134-afb6-4082-8360-3d5096d8cbb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch29-goroutine/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch29-goroutine/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch30-mutex-waitgroup/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch31-go-channel/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ch31-go-channel/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch30-mutex-waitgroup/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch30-mutex-waitgroup/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +81,7 @@
       <recent name="F:\LearningK8s\golearning\src\ch27-gotesting-cover-bench" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Build.go build main.go (1)">
     <configuration name="go build ch28-godoc-example/ch29-goroutine" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golearning" />
       <working_directory value="$PROJECT_DIR$/src" />
@@ -91,6 +97,14 @@
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/src/ch29-goroutine/main.go" />
       <package value="ch29-goroutine" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golearning" />
+      <working_directory value="$PROJECT_DIR$/src/ch31-go-channel" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/ch31-go-channel/main.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -111,29 +125,20 @@
       <filePath value="$PROJECT_DIR$/src/ch28-godoc-example/queue/queue_test.go|$PROJECT_DIR$/src/ch28-godoc-example/queue/queue.go" />
       <method v="2" />
     </configuration>
-    <configuration name="queue_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="golearning" />
-      <working_directory value="$PROJECT_DIR$/src/ch28-godoc-example/queue" />
-      <framework value="gotest" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/src/ch28-godoc-example/queue/queue_test.go" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Go Test.queue_test.go" />
-      <item itemvalue="Go Test.queue_test.go queue.go" />
       <item itemvalue="Go Build.go build ch28-godoc-example/ch29-goroutine" />
       <item itemvalue="Go Build.go build ch29-goroutine" />
       <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Test.queue_test.go queue.go" />
+      <item itemvalue="Go Build.go build main.go (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build ch29-goroutine" />
         <item itemvalue="Go Build.go build ch28-godoc-example/ch29-goroutine" />
         <item itemvalue="Go Test.queue_test.go queue.go" />
-        <item itemvalue="Go Test.queue_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +150,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -167,6 +184,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="395" y="96" key="#Inspections/0.0.1536.834@0.0.1536.834" timestamp="1591191060215" />
+    <state x="651" y="279" width="482" height="404" key="#Notifications" timestamp="1591367994046">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="651" y="279" width="482" height="404" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1591367994046" />
     <state x="241" y="50" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591189993451">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -195,22 +216,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="548" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1591189430425" />
-    <state width="746" height="209" key="GridCell.Tab.0.bottom" timestamp="1591281884637">
+    <state width="746" height="209" key="GridCell.Tab.0.bottom" timestamp="1591370354942">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="209" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1591281884637" />
-    <state width="746" height="209" key="GridCell.Tab.0.center" timestamp="1591281884637">
+    <state width="746" height="209" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1591370354942" />
+    <state width="746" height="209" key="GridCell.Tab.0.center" timestamp="1591370354942">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="209" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1591281884637" />
-    <state width="746" height="209" key="GridCell.Tab.0.left" timestamp="1591281884637">
+    <state width="746" height="209" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1591370354942" />
+    <state width="746" height="209" key="GridCell.Tab.0.left" timestamp="1591370354942">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="209" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1591281884637" />
-    <state width="746" height="209" key="GridCell.Tab.0.right" timestamp="1591281884637">
+    <state width="746" height="209" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1591370354942" />
+    <state width="746" height="209" key="GridCell.Tab.0.right" timestamp="1591370354942">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="746" height="209" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1591281884637" />
+    <state width="746" height="209" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1591370354942" />
     <state width="746" height="265" key="GridCell.Tab.1.bottom" timestamp="1591106139181">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
