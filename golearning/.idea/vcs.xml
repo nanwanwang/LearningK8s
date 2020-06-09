@@ -5,6 +5,5 @@
     <mapping directory="$PROJECT_DIR$/.cache/govendor/github.com/cnych/stardust" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/.cache/govendor/github.com/nanwanwang/stardust" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/.cache/govendor/github.com/satori/go.uuid" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/src/ch34-other-lib" vcs="Git" />
   </component>
 </project>

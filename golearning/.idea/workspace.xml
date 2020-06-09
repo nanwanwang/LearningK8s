@@ -27,14 +27,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a121d134-afb6-4082-8360-3d5096d8cbb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ch32-go-buffered-select/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch32-go-buffered-select/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch33-http/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch33-http/images/golang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch33-http/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch33-http/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pogo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pogo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pogo/.idea/pogo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pogo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pogo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pogo/common/demo/flags/flag.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pogo/common/logs/logs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pogo/common/logs/logs/log.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pogo/common/logs/logs_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pogo/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pogo/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pogo/pogo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch9-作用域与指针/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch9-作用域与指针/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +59,7 @@
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/ch34-other-lib" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
@@ -80,7 +87,7 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ch33-http" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -91,16 +98,7 @@
       <recent name="F:\LearningK8s\golearning\src\ch27-gotesting-cover-bench" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (3)">
-    <configuration name="go build ch29-goroutine" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golearning" />
-      <working_directory value="$PROJECT_DIR$/src/ch29-goroutine" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/src/ch29-goroutine/main.go" />
-      <package value="ch29-goroutine" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build main.go (4)">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golearning" />
       <working_directory value="$PROJECT_DIR$/src/ch31-go-channel" />
@@ -125,6 +123,14 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golearning" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/ch9-作用域与指针/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golearning" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -134,19 +140,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build ch29-goroutine" />
       <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build main.go (1)" />
       <item itemvalue="Go Build.go build main.go (2)" />
       <item itemvalue="Go Build.go build main.go (3)" />
+      <item itemvalue="Go Build.go build main.go (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (4)" />
         <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build ch29-goroutine" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +185,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/ch34-other-lib" />
+    </ignored-roots>
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -196,10 +205,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="395" y="96" key="#Inspections/0.0.1536.834@0.0.1536.834" timestamp="1591623402056" />
-    <state x="651" y="279" width="482" height="404" key="#Notifications" timestamp="1591508203909">
+    <state x="651" y="279" width="482" height="404" key="#Notifications" timestamp="1591698315804">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="651" y="279" width="482" height="404" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1591508203909" />
+    <state x="651" y="279" width="482" height="404" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1591698315804" />
     <state x="241" y="50" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591189993451">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -220,30 +229,30 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="465" y="41" key="#go_build_main.go_(3)/0.0.1536.834@0.0.1536.834" timestamp="1591022270305" />
-    <state x="656" y="277" key="EnvironmentVariablesDialog" timestamp="1590898921372">
+    <state x="656" y="277" key="EnvironmentVariablesDialog" timestamp="1591711159671">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="656" y="277" key="EnvironmentVariablesDialog/0.0.1536.834@0.0.1536.834" timestamp="1590898921372" />
-    <state x="548" y="172" key="FileChooserDialogImpl" timestamp="1591189430425">
+    <state x="656" y="277" key="EnvironmentVariablesDialog/0.0.1536.834@0.0.1536.834" timestamp="1591711159671" />
+    <state x="548" y="172" key="FileChooserDialogImpl" timestamp="1591711287964">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="548" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1591189430425" />
-    <state width="1493" height="209" key="GridCell.Tab.0.bottom" timestamp="1591630063437">
+    <state x="548" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1591711287964" />
+    <state width="723" height="208" key="GridCell.Tab.0.bottom" timestamp="1591698942214">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1591630063437" />
-    <state width="1493" height="209" key="GridCell.Tab.0.center" timestamp="1591630063436">
+    <state width="723" height="208" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1591698942214" />
+    <state width="723" height="208" key="GridCell.Tab.0.center" timestamp="1591698942214">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1591630063436" />
-    <state width="1493" height="209" key="GridCell.Tab.0.left" timestamp="1591630063436">
+    <state width="723" height="208" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1591698942214" />
+    <state width="723" height="208" key="GridCell.Tab.0.left" timestamp="1591698942214">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1591630063436" />
-    <state width="1493" height="209" key="GridCell.Tab.0.right" timestamp="1591630063437">
+    <state width="723" height="208" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1591698942214" />
+    <state width="723" height="208" key="GridCell.Tab.0.right" timestamp="1591698942214">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="209" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1591630063437" />
+    <state width="723" height="208" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1591698942214" />
     <state width="746" height="265" key="GridCell.Tab.1.bottom" timestamp="1591106139181">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -260,10 +269,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="746" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1591106139181" />
-    <state x="270" y="62" key="SettingsEditor" timestamp="1591624885044">
+    <state x="270" y="62" key="SettingsEditor" timestamp="1591708894135">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="270" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1591624885044" />
+    <state x="270" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1591708894135" />
     <state x="468" y="120" width="600" height="594" key="find.popup" timestamp="1590998353370">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
